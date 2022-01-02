@@ -58,28 +58,10 @@
 
 
 
-    <script>
-        function calculate() {
-            var billEl = document.querySelector(".bill")
-            var tipEl = document.querySelector(".tip")
-            num1 = Number(billEl.value)
-            num2 = Number(tipEl.value)
-
-            var totalTip = (num1 * num2) / 100
-            var totalBill = num1 + totalTip
-            var spanNode = document.querySelectorAll("span")[0]
-            spanNode.innerText = totalTip
-            var billNode = document.querySelectorAll("span")[1]
-            billNode.innerText = totalBill
-
-        }
-
-
-
-    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
+        <script src="index.js"></script>
 </body>
 
 </html>
